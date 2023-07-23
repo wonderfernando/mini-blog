@@ -1,0 +1,47 @@
+.sideBar{
+     border-radius: 8px;
+     background: var(--gray-800);
+     overflow: hidden;
+}
+.cover {
+    height: 72px;
+    width: 100%;
+    object-fit: cover;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -2rem;
+}
+.profile span{
+    font-size: 0.875rem;
+    color: var(--gray-400);
+    line-height: 1.6;
+}
+.sideBar footer{
+    margin-top: 1.5rem;
+    padding: 1.5rem 2rem 2rem;
+    border: 1px solid var(--gray-600);
+}
+.sideBar footer a{
+    color: var(--green-500);
+    background: transparent;
+    border: 1px solid var(--green-500);
+    padding: 0 1.5rem;
+    height: 50px;
+    display: block;
+    font-weight: bold;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .9rem;
+    gap: .3rem;
+    transition: .3s;
+}
+.sideBar footer a:hover{
+    background: var(--green-500);
+    color: var(--white);
+}
